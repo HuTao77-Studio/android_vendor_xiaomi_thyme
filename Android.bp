@@ -2071,7 +2071,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libMegviiFacepp-0.5.2",
+	name: "libMegviiFacepp-0.5.2_vendor",
+	stem: "libMegviiFacepp-0.5.2",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -3046,7 +3047,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmegface",
+	name: "libmegface_vendor",
+	stem: "libmegface",
 	owner: "xiaomi",
 	strip: {
 		none: true,
